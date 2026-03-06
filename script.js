@@ -1,5 +1,15 @@
-console.log("Website Loaded Successfully");
+console.log("Website Loaded")
 
-document.querySelector(".btn-primary").addEventListener("click", function(){
-    alert("Welcome to the Demo Project 🚀");
-});
+const form = document.getElementById("loginForm")
+
+if(form){
+
+form.addEventListener("submit",function(e){
+
+e.preventDefault()
+
+alert("Login successful (demo)")
+
+})
+
+}
