@@ -61,3 +61,27 @@ body {
   padding: 20px 0;
   margin-top: 50px;
 }
+
+
+
+
+/* LOGIN */
+
+.login-section {
+  padding: 100px 0;
+}
+
+.login-card {
+  border: none;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.login-card input {
+  height: 45px;
+}
+
+.login-card button {
+  margin-top: 10px;
+}
